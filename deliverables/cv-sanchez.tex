@@ -1,0 +1,140 @@
+% Harvard-Format Professional CV — Rosalinda Sanchez Chagua
+% Compile with: xelatex cv-sanchez.tex
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.5in, top=0.4in, bottom=0.4in]{geometry}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Fonts ---
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+
+% --- Colors ---
+\definecolor{headrule}{HTML}{2c3e50}
+\definecolor{linkblue}{HTML}{1a5276}
+
+% --- Hyperlinks ---
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
+
+% --- Section Formatting ---
+\titleformat{\section}
+  {\normalsize\bfseries\centering}
+  {}
+  {0em}
+  {\vspace{-0.3em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.3em}]
+\titlespacing{\section}{0pt}{0.5em}{0.2em}
+
+% --- List Formatting ---
+\setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=0pt, topsep=1pt}
+
+% --- No page numbers ---
+\pagestyle{empty}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \par\nopagebreak
+  \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+  {\Large\bfseries Rosalinda Sanchez Chagua} \\[3pt]
+  \faIcon{map-marker-alt}\enspace Lima, Per\'u
+  \quad\faIcon{envelope}\enspace \href{mailto:rosalinda.sanchez@unmsm.edu.pe}{rosalinda.sanchez@unmsm.edu.pe}
+  \quad\faIcon{linkedin}\enspace \href{https://pe.linkedin.com/in/rosalinda-sanchez-chagua-1b26061b1}{linkedin.com/in/rosalinda-sanchez-chagua}
+\end{center}
+
+\vspace{-0.4em}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{-0.6em}
+
+% ============================================
+% EDUCACI\'ON
+% ============================================
+\section{Educaci\'on}
+
+\entry{Universidad Nacional Mayor de San Marcos (UNMSM)}{Lima, Per\'u}{Abogada titulada en Derecho}{2017 -- 2023}
+\begin{itemize}
+  \item Campeona del Torneo Universitario de Debate Defensorial --- Defensor\'ia del Pueblo (2019)
+  \item Co-autora: ``El proceso administrativo de la Consulta Previa'' (Congreso de Talleres UNMSM)
+  \item Coordinadora General del Taller EJIDA (Derecho Administrativo, 2021)
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Universidad San Sebasti\'an}{Chile}{Intercambio Estudiantil --- Gesti\'on P\'ublica y Pol\'iticas P\'ublicas}{2021 -- 2022}
+\vspace{0.2em}
+
+\entry{Especializaciones}{Per\'u}{OEFA, OSITRAN, Tribunal Constitucional, PUCP, UNT}{2022 -- 2025}
+\begin{itemize}
+  \item Fiscalizaci\'on Ambiental (OEFA), Infraestructura de Transporte (OSITRAN), Procesos Constitucionales (TC del Per\'u)
+  \item Gesti\'on Ambiental 120h (UNT, 2025); Diplomado Pensamiento Ambiental (2022); Derecho Administrativo (PUCP, 2023)
+\end{itemize}
+\vspace{0.2em}
+
+% ============================================
+% EXPERIENCIA
+% ============================================
+\section{Experiencia Profesional}
+
+\entry{UL Energ\'ia e Infraestructura}{Lima, Per\'u}{Abogada Junior}{2025 -- Presente}
+\begin{itemize}
+  \item Asesoro en temas regulatorios, tarifarios y arbitrales del sector energ\'etico para clientes corporativos
+  \item Lidero consultor\'ias legales en Proyectos RER, analizando marcos normativos para viabilizar inversiones en energ\'ia limpia
+  \item Elaboro informes t\'ecnico-legales sobre procesos tarifarios ante OSINERGMIN, contribuyendo a la defensa de 5+ expedientes
+\end{itemize}
+\vspace{0.2em}
+
+\entry{UL Energ\'ia e Infraestructura}{Lima, Per\'u}{Asistenta Legal}{2024 -- 2025}
+\begin{itemize}
+  \item Analiz\'o el marco regulatorio del sector el\'ectrico, identificando riesgos legales en procedimientos ante reguladores
+  \item Revis\'o y sistematiz\'o procesos tarifarios fijados por OSINERGMIN, generando res\'umenes ejecutivos para litigio
+\end{itemize}
+\vspace{0.2em}
+
+\entry{UL Energ\'ia e Infraestructura}{Lima, Per\'u}{Practicante Profesional}{2023 -- 2024}
+\begin{itemize}
+  \item Redact\'o escritos judiciales en procesos contenciosos administrativos, apoyando la defensa de 3+ casos
+\end{itemize}
+\vspace{0.2em}
+
+\entry{UL Energ\'ia e Infraestructura}{Lima, Per\'u}{Practicante Preprofesional}{2022 -- 2023}
+\begin{itemize}
+  \item Apoy\'o en procedimientos contenciosos administrativos en Hidrocarburos y procesos civiles y arbitrales, gestionando 10+ expedientes
+\end{itemize}
+\vspace{0.2em}
+
+% ============================================
+% LIDERAZGO Y LOGROS
+% ============================================
+\section{Liderazgo y Logros}
+
+\begin{itemize}
+  \item \textbf{Campeona} --- Torneo Universitario de Debate Defensorial, Defensor\'ia del Pueblo (2019)
+  \item \textbf{Finalista} --- Moot Internacional de Derecho Ambiental, caso ``Cuninico vs Petro Per\'u''; equipo Mayuriq Pacha, 2do lugar (2021)
+  \item \textbf{Vocera Lima Metropolitana} --- Voluntariado Ambiental Juvenil, MINAM; co-autora ``Visi\'on Juvenil Ambiental del Bicentenario'' (2021)
+\end{itemize}
+\vspace{0.2em}
+
+% ============================================
+% HABILIDADES
+% ============================================
+\section{Habilidades e Idiomas}
+
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Especialidades:} & Derecho Regulatorio, Sector El\'ectrico, Derecho Ambiental, Arbitraje, Hidrocarburos, Proyectos RER, Procesos Tarifarios \\[2pt]
+\textbf{Idiomas:} & Espa\~nol (nativo), Portugu\'es (avanzado), Alem\'an (intermedio), Ingl\'es (intermedio) \\[2pt]
+\textbf{Competencias:} & Oratoria y debate, Comunicaci\'on efectiva, Trabajo en equipo, Orientaci\'on a resultados \\
+\end{tabularx}
+
+\end{document}

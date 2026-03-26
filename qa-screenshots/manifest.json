@@ -1,0 +1,102 @@
+{
+  "url": "https://rosalinda-sanchez.cofoundy.dev",
+  "timestamp": "2026-03-26T14:50:58.923Z",
+  "desktop": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "full": {
+      "file": "desktop-full.png",
+      "fileSize": "410KB"
+    },
+    "sections": [
+      {
+        "file": "desktop-hero.png",
+        "section": "hero",
+        "height": 697,
+        "fileSize": "81KB"
+      },
+      {
+        "file": "desktop-about.png",
+        "section": "about",
+        "height": 526,
+        "fileSize": "84KB"
+      },
+      {
+        "file": "desktop-projects.png",
+        "section": "projects",
+        "height": 807,
+        "fileSize": "84KB"
+      },
+      {
+        "file": "desktop-experience.png",
+        "section": "experience",
+        "height": 672,
+        "fileSize": "64KB"
+      },
+      {
+        "file": "desktop-education.png",
+        "section": "education",
+        "height": 600,
+        "fileSize": "65KB"
+      },
+      {
+        "file": "desktop-footer-5.png",
+        "section": "footer-5",
+        "height": 205,
+        "fileSize": "17KB"
+      }
+    ],
+    "pageHeight": 3534
+  },
+  "mobile": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "full": {
+      "file": "mobile-full.png",
+      "fileSize": "376KB"
+    },
+    "sections": [
+      {
+        "file": "mobile-hero.png",
+        "section": "hero",
+        "height": 883,
+        "fileSize": "54KB"
+      },
+      {
+        "file": "mobile-about.png",
+        "section": "about",
+        "height": 999,
+        "fileSize": "76KB"
+      },
+      {
+        "file": "mobile-projects.png",
+        "section": "projects",
+        "height": 1509,
+        "fileSize": "86KB"
+      },
+      {
+        "file": "mobile-experience.png",
+        "section": "experience",
+        "height": 1066,
+        "fileSize": "71KB"
+      },
+      {
+        "file": "mobile-education.png",
+        "section": "education",
+        "height": 918,
+        "fileSize": "67KB"
+      },
+      {
+        "file": "mobile-footer-5.png",
+        "section": "footer-5",
+        "height": 285,
+        "fileSize": "16KB"
+      }
+    ],
+    "pageHeight": 5688
+  }
+}

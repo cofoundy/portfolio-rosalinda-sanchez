@@ -23,7 +23,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
               style={`background-color: ${siteConfig.highlightColor}15`}
             >
-              <BrandIcon name={edu.school} size={28} />
+              <BrandIcon name={edu.school.split('/')[0].trim()} size={28} />
             </div>
 
             <div class="flex-1 min-w-0">

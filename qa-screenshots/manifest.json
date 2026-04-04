@@ -1,6 +1,6 @@
 {
   "url": "https://rosalinda-sanchez.cofoundy.dev",
-  "timestamp": "2026-03-26T14:50:58.923Z",
+  "timestamp": "2026-03-31T08:23:38.385Z",
   "desktop": {
     "viewport": {
       "width": 1280,
@@ -8,20 +8,20 @@
     },
     "full": {
       "file": "desktop-full.png",
-      "fileSize": "410KB"
+      "fileSize": "423KB"
     },
     "sections": [
       {
         "file": "desktop-hero.png",
         "section": "hero",
         "height": 697,
-        "fileSize": "81KB"
+        "fileSize": "82KB"
       },
       {
         "file": "desktop-about.png",
         "section": "about",
-        "height": 526,
-        "fileSize": "84KB"
+        "height": 555,
+        "fileSize": "93KB"
       },
       {
         "file": "desktop-projects.png",
@@ -39,7 +39,7 @@
         "file": "desktop-education.png",
         "section": "education",
         "height": 600,
-        "fileSize": "65KB"
+        "fileSize": "69KB"
       },
       {
         "file": "desktop-footer-5.png",
@@ -48,7 +48,7 @@
         "fileSize": "17KB"
       }
     ],
-    "pageHeight": 3534
+    "pageHeight": 3563
   },
   "mobile": {
     "viewport": {
@@ -57,7 +57,7 @@
     },
     "full": {
       "file": "mobile-full.png",
-      "fileSize": "376KB"
+      "fileSize": "386KB"
     },
     "sections": [
       {
@@ -70,7 +70,7 @@
         "file": "mobile-about.png",
         "section": "about",
         "height": 999,
-        "fileSize": "76KB"
+        "fileSize": "87KB"
       },
       {
         "file": "mobile-projects.png",
@@ -88,7 +88,7 @@
         "file": "mobile-education.png",
         "section": "education",
         "height": 918,
-        "fileSize": "67KB"
+        "fileSize": "70KB"
       },
       {
         "file": "mobile-footer-5.png",

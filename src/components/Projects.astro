@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from "../config";
+import BrandIcon from "./BrandIcon.astro";
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 ---
 
@@ -25,12 +26,12 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                 class={`reveal stagger-${index + 1} group card-hover card-shine p-6 rounded-xl bg-white ${project.link ? "cursor-pointer" : ""}`}
                 style={`border: 1px solid ${siteConfig.accentColor}15`}
               >
-                <!-- Number -->
+                <!-- Icon or Number -->
                 <div
                   class="w-10 h-10 rounded-lg flex items-center justify-center text-sm font-bold mb-4 transition-transform duration-300 group-hover:scale-110"
                   style={`background-color: ${siteConfig.highlightColor}20; color: ${siteConfig.highlightColor}`}
                 >
-                  0{index + 1}
+                  {project.icon ? <BrandIcon name={project.icon} size={24} /> : <>0{index + 1}</>}
                 </div>
 
                 <h3 class="text-lg font-semibold mb-2" style={`color: ${siteConfig.accentColor}`}>

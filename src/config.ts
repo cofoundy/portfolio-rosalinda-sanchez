@@ -26,7 +26,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "Abogada titulada por la Universidad Nacional Mayor de San Marcos con experiencia en derecho regulatorio del sector eléctrico, hidrocarburos y energías renovables. He desarrollado toda mi carrera profesional en UL Energía e Infraestructura, donde asesoro en temas tarifarios, arbitrales y de consultorías en Proyectos RER. Mi formación incluye un intercambio académico en la Universidad San Sebastián de Chile y especializaciones en fiscalización ambiental (OEFA), regulación de infraestructura (OSITRAN) y procesos constitucionales. Campeona del Torneo Universitario de Debate Defensorial y finalista en el Moot Internacional de Derecho Ambiental, creo firmemente en la argumentación como herramienta de cambio.",
+    "Abogada titulada por la <strong>Universidad Nacional Mayor de San Marcos</strong> con experiencia en <strong>derecho regulatorio</strong> del sector eléctrico, hidrocarburos y energías renovables. He desarrollado toda mi carrera profesional en <strong>UL Energía e Infraestructura</strong>, donde asesoro en temas tarifarios, arbitrales y de consultorías en <strong>Proyectos RER</strong>. Mi formación incluye un intercambio académico en la <strong>Universidad San Sebastián de Chile</strong> y especializaciones en fiscalización ambiental (OEFA), regulación de infraestructura (OSITRAN) y procesos constitucionales. <strong>Campeona del Torneo Universitario de Debate Defensorial</strong> y finalista en el <strong>Moot Internacional de Derecho Ambiental</strong>, creo firmemente en la argumentación como herramienta de cambio.",
 
   skills: [
     "Derecho Regulatorio",
@@ -47,6 +47,7 @@ export const siteConfig = {
       description:
         "Co-autora y ponente del artículo sobre el proceso administrativo de la Consulta Previa, presentado en el Congreso de Talleres de la UNMSM.",
       link: "",
+      icon: "UNMSM",
       skills: ["Derecho Administrativo", "Consulta Previa", "Investigación"],
     },
     {
@@ -54,6 +55,7 @@ export const siteConfig = {
       description:
         "Co-autora del documento elaborado como Vocera de Lima Metropolitana del Voluntariado Ambiental Juvenil del MINAM.",
       link: "",
+      icon: "MINAM",
       skills: ["Derecho Ambiental", "Políticas Públicas", "MINAM"],
     },
     {
@@ -61,6 +63,7 @@ export const siteConfig = {
       description:
         "Finalista en el Moot Internacional de Derecho Ambiental. Equipo Mayuriq Pacha, segundo lugar en el primer Moot ambiental del Perú.",
       link: "",
+      icon: "Defensoría del Pueblo",
       skills: ["Litigación", "Derecho Ambiental", "Oratoria"],
     },
     {
@@ -68,6 +71,7 @@ export const siteConfig = {
       description:
         "Asesoría legal en proyectos de Recursos Energéticos Renovables, incluyendo análisis regulatorio y procesos tarifarios ante OSINERGMIN.",
       link: "",
+      icon: "OSINERGMIN",
       skills: ["Energías Renovables", "Regulación", "OSINERGMIN"],
     },
   ],

@@ -2,7 +2,7 @@
 
 Portafolio profesional.
 
-**Live:** *Se actualizará después del deploy*
+**Live:** [rosalinda-sanchez.cofoundy.dev](https://rosalinda-sanchez.cofoundy.dev/)
 
 ## Tech Stack
 

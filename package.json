@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@rolldown/binding-darwin-arm64": "^1.0.0-rc.13",
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.12.3",
     "tailwindcss": "^4.1.11"

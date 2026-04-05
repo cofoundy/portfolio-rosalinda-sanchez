@@ -4,9 +4,9 @@ export const siteConfig = {
   description:
     "Abogada titulada por la UNMSM especializada en derecho regulatorio, ambiental y arbitral. Experiencia en el sector energético peruano con enfoque en regulación eléctrica, hidrocarburos y proyectos RER.",
 
-  // 2-color system: cyan (brand) + warm amber (CTAs)
-  accentColor: "#0891b2",
-  highlightColor: "#f59e0b",
+  // 2-color system: olive green (brand) + warm orange (CTAs) — Annie palette
+  accentColor: "#6B7B3A",
+  highlightColor: "#D4874D",
 
   // Hero stats (3 max, short labels)
   stats: [

@@ -5,7 +5,7 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 ---
 
 {hasExperience && (
-  <section id="experience" class="py-12 md:py-16 bg-white">
+  <section id="experience" class="py-12 md:py-16" style="background-color: #FDF5EF">
     <div class="max-w-6xl mx-auto px-6 lg:px-8">
       <div class="mb-10 reveal-left">
         <h2 class="text-3xl md:text-4xl font-bold" style={`color: ${siteConfig.accentColor}`}>Experiencia</h2>
@@ -36,7 +36,7 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
         {siteConfig.experience.map((exp, index) => (
           <div
-            class={`reveal stagger-${index + 2} card-hover p-5 rounded-xl bg-gray-50`}
+            class={`reveal stagger-${index + 2} card-hover p-5 rounded-xl`} style="background-color: #F5E6DA"
             style={`border: 1px solid ${siteConfig.accentColor}12`}
           >
             <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3">

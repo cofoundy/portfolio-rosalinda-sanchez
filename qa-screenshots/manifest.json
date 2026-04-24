@@ -1,6 +1,6 @@
 {
   "url": "https://rosalinda-sanchez.cofoundy.dev",
-  "timestamp": "2026-03-31T08:23:38.385Z",
+  "timestamp": "2026-04-05T13:31:07.391Z",
   "desktop": {
     "viewport": {
       "width": 1280,
@@ -8,38 +8,38 @@
     },
     "full": {
       "file": "desktop-full.png",
-      "fileSize": "423KB"
+      "fileSize": "567KB"
     },
     "sections": [
       {
         "file": "desktop-hero.png",
         "section": "hero",
         "height": 697,
-        "fileSize": "82KB"
+        "fileSize": "211KB"
       },
       {
         "file": "desktop-about.png",
         "section": "about",
         "height": 555,
-        "fileSize": "93KB"
+        "fileSize": "96KB"
       },
       {
         "file": "desktop-projects.png",
         "section": "projects",
         "height": 807,
-        "fileSize": "84KB"
+        "fileSize": "90KB"
       },
       {
         "file": "desktop-experience.png",
         "section": "experience",
-        "height": 672,
+        "height": 668,
         "fileSize": "64KB"
       },
       {
         "file": "desktop-education.png",
         "section": "education",
-        "height": 600,
-        "fileSize": "69KB"
+        "height": 596,
+        "fileSize": "73KB"
       },
       {
         "file": "desktop-footer-5.png",
@@ -48,7 +48,7 @@
         "fileSize": "17KB"
       }
     ],
-    "pageHeight": 3563
+    "pageHeight": 3555
   },
   "mobile": {
     "viewport": {
@@ -57,38 +57,38 @@
     },
     "full": {
       "file": "mobile-full.png",
-      "fileSize": "386KB"
+      "fileSize": "466KB"
     },
     "sections": [
       {
         "file": "mobile-hero.png",
         "section": "hero",
         "height": 883,
-        "fileSize": "54KB"
+        "fileSize": "121KB"
       },
       {
         "file": "mobile-about.png",
         "section": "about",
         "height": 999,
-        "fileSize": "87KB"
+        "fileSize": "90KB"
       },
       {
         "file": "mobile-projects.png",
         "section": "projects",
         "height": 1509,
-        "fileSize": "86KB"
+        "fileSize": "92KB"
       },
       {
         "file": "mobile-experience.png",
         "section": "experience",
-        "height": 1066,
+        "height": 1058,
         "fileSize": "71KB"
       },
       {
         "file": "mobile-education.png",
         "section": "education",
-        "height": 918,
-        "fileSize": "70KB"
+        "height": 912,
+        "fileSize": "74KB"
       },
       {
         "file": "mobile-footer-5.png",
@@ -97,6 +97,6 @@
         "fileSize": "16KB"
       }
     ],
-    "pageHeight": 5688
+    "pageHeight": 5674
   }
 }

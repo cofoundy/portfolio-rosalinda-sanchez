@@ -5,7 +5,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 ---
 
 {hasEducation && (
-  <section id="education" class="py-12 md:py-16" style="background-color: #F5E6DA">
+  <section id="education" class="py-12 md:py-16" style="background-color: #F9F2EC">
     <div class="max-w-6xl mx-auto px-6 lg:px-8">
       <div class="mb-10 reveal-left">
         <h2 class="text-3xl md:text-4xl font-bold" style={`color: ${siteConfig.accentColor}`}>Educación</h2>
@@ -15,7 +15,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         {siteConfig.education.map((edu, index) => (
           <div
-            class={`reveal stagger-${index + 1} card-hover flex gap-4 p-4 rounded-xl`} style="background-color: #FDF5EF"
+            class={`reveal stagger-${index + 1} card-hover flex gap-4 p-4 rounded-xl`} style="background-color: #F9F2EC"
             style={`border: 1px solid ${siteConfig.accentColor}12`}
           >
             <!-- School icon (auto-discovers from public/icons/) -->
